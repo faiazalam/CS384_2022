@@ -14,7 +14,6 @@ m2=np.mean(B)
 Q=B-m2
 m3=np.mean(C)
 R=C-m3
-m4=np.mean(D)
 S=D-m4
 def get_octant(pA,pB,pC,pD):
     for point in df:
